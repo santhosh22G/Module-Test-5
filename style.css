@@ -20,20 +20,19 @@
     position: relative;
     font-family: sans-serif;
     font-size: 4em;
-    animation: bounce 3s
+    animation:  fade-in  3s
 }
 
-@keyframes bounce {
+@keyframes fade-in {
     from {
-        transform: rotate(0deg);
+      opacity: 0;
     }
-
     to {
-        transform: rotate(360deg);
+      opacity: 1;
     }
-}
-
-
+  }
+  
+  
 .btncolor {
     color: white;
     font-size: 30px;
